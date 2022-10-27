@@ -1,0 +1,9 @@
+name,constraint,tag
+aisle_id_not_null,aisle_id IS NOT NULL,aisle_validity_check
+aisle_not_null,aisle IS NOT NULL,aisle_validity_check
+department_id_not_null,department_id IS NOT NULL,dept_validity_check
+deparment_not_null,department IS NOT NULL,dept_validity_check
+product_id_not_null,product_id IS NOT NULL,product_validity_check
+product_name_not_null,product_name IS NOT NULL,product_validity_check
+order_num_valid,order_number > 0,order_validity_check
+order_hour_of_day_valid,order_hour_check(order_hour_of_day),order_validity_check
